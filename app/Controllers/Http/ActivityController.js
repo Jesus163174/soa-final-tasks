@@ -31,7 +31,7 @@ class ActivityController {
         }catch(error){
             return response.status(501).json({
                 "msg":error.message,
-            });
+            })
         }
     }
 
