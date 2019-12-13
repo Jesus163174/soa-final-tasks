@@ -28,3 +28,6 @@ Route.put('activity/:id_ac','ActivityController.update');
 
 Route.get('todo/:activityId','TodoController.index');
 Route.post('todo/:activityId','TodoController.store');
+
+Route.post('login','UserController.login');
+Route.post('register','UserController.register');
